@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLÍNICA DO MÉDICO DOS MÉDICOS</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+            cursor: pointer;
+            box-shadow: 19px 20px 17px 8px rgba(219,139,139,0.44);
+            -webkit-box-shadow: 19px 20px 17px 8px rgba(219,139,139,0.44);
+            -moz-box-shadow: 19px 20px 17px 8px rgba(219,139,139,0.44);
+        }
+        table thead th {
+            background-color: rgb(163, 24, 128);
+            color: white;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: rgb(163, 24, 128);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(219, 223, 19);
+        }
+        table tfoot td {
+            background-color: rgb(231, 178, 218);
+        }
+    </style>
+</head>
+<body>
+    <font face="Roboto, Arial">
+    <div class="wrapper">
+        <div class="menu">
+            <h1 align="center"><b>MENU</b></h1>
+            <ul>
+                <li><a href="especialidades.html"><b>ESPECIALIDADES</b></a></li><br>
+                <li><a href="atendimento.html"><b>HORÁRIO DE ATENDIMENTO</b></a></li><br>
+                <li><a href="about.html"><b>SOBRE A CLÍNICA</b></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="midia/jesus.jpg" width="250" title="Clínica do Médico dos médicos" alt="imagem: Clínica do Médico dos médicos">
+                <h1 align="right">Clínica do Médico dos médicos - Dr. Jesus Cristo</h1>
+            </div>
+    
+            <div class="content">
+                <h1>Horários de Atendimento</h1>
+                <table summary="Esta tabela refere-se aos horários de atendimento do Médico Jesus." border="1" width="250" cellspacing="0" cellpadding="10" align="center">
+                    <caption>Horários de Atendimento do Dr. Jesus Cristo</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="6">ATENDIMENTO</th>
+                        </tr>
+                        <tr>
+                            <th>ESPECIALIDADE</th>
+                            <th>MADRUGADA</th>
+                            <th>MANHÃ</th>
+                            <th>TARDE</th>
+                            <th>NOITE</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>    
+                        <tr id="1">
+                            <td>Clínica Geral</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                            <td rowspan="9">CONSULTAS GRATUITAS</td>
+                        </tr>
+                        <tr id="2">
+                            <td>Pediatria</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="3">
+                            <td>Psiquiatria</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Oftalmologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="5">
+                            <td>Reumatologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="6">
+                            <td>Dermatologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="7">
+                            <td>Otorrinolaringologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="8">
+                            <td>Hematologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                        <tr id="9">
+                            <td>Neurologia</td>
+                            <td>00h00 - 06h00</td>
+                            <td>06h00 - 12h00</td>
+                            <td>12h00 - 18h00</td>
+                            <td>18h00 - 00h00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total</td>
+                            <td colspan="9">Atendimento ilimitado por 24h ao dia de domingo a domingo.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            
+            </div>
+    
+            <div class="footer">
+                <h1 align="center"><b>CONTATO</b></h1>
+                <ul>
+                    <li><a href="localizacao.html"><b>NOSSA LOCALIZAÇÃO</b></a></li><br>
+                    <li><a href="faleconosco.html"><b>FALE CONOSCO</b></a></li><br>
+                </ul>
+            </div>
+        </div>
+    </div>
+</font>
+</body>
+</html>
